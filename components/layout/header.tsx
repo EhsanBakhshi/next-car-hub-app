@@ -1,3 +1,4 @@
+import Button from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -14,6 +15,13 @@ const Header = () => {
             className="object-contain"
           />
         </Link>
+
+        <Button
+          type={"button"}
+          className="text-primary-blue rounded-full bg-white min-w-[130px]"
+        >
+          Sign In
+        </Button>
       </nav>
     </header>
   );
