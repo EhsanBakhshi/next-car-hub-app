@@ -1,3 +1,4 @@
+import Catalogue from "./catalogue";
 import Hero from "./hero";
 
-export { Hero };
+export { Hero, Catalogue };
