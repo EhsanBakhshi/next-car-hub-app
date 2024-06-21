@@ -19,8 +19,6 @@ const CarCard = ({ data }: CarCardProps) => {
 
   const [open, setOpen] = useState<boolean>(false);
 
-  console.log(generateCarImageUrl(data, "01"));
-
   return (
     <div className="car-card group">
       <div className="car-card__content">
