@@ -15,7 +15,15 @@ const Footer = () => {
             className="object-contain"
           />
           <p className="text-base text-gray-700">
-            Car Hub 2024 <br /> All rights reserved &copy;
+            © {new Date().getFullYear()}. Designed and developed by{" "}
+            <a
+              href="https://github.com/EhsanBakhshi"
+              className="text-blue-700"
+              target="_blank"
+            >
+              Ehsan Bakhshi
+            </a>
+            . All rights reserved.
           </p>
         </div>
 
